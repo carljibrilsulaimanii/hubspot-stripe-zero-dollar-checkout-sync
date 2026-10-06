@@ -215,7 +215,9 @@ at **None**. Create the key and copy it (`rk_live_...`).
 
 About 5 minutes.
 
-**4a.** Create a private app (or service key) for this, with these scopes:
+**4a.** In HubSpot's **Service Keys** page, click **Create service key**. On **Create Service
+Key**, enter a **Name** (*"It must be unique to this account."*), then under **Scopes**
+click **Add new scope** for each scope below, and click **Create**. Use these scopes:
 
 | Scope | Why |
 |---|---|
