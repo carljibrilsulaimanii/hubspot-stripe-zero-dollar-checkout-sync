@@ -178,7 +178,7 @@ function tierOf(tickets) {
 }
 
 // Payment-link UTMs reach the API only inside the session's success_url (see the
-// hubspot-order-form-stripe-checkout-link-integration repo).
+// hubspot-stripe-utm-attribution repo).
 function utmsFromSuccessUrl(successUrl) {
   if (!successUrl) return {};
 

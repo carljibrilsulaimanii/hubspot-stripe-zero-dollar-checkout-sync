@@ -168,7 +168,7 @@ async function lineItemsFor(session) {
 }
 
 // Payment-link UTMs reach the API only inside the session's success_url -- see
-// the hubspot-order-form-stripe-checkout-link-integration repo. Same trick here.
+// the hubspot-stripe-utm-attribution repo. Same trick here.
 function utmsFromSuccessUrl(successUrl) {
   if (!successUrl) return {};
   let params;
