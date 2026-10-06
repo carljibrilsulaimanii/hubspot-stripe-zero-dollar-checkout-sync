@@ -1,0 +1,12 @@
+{
+  "name": "hubspot-stripe-zero-dollar-checkout-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Get $0 and 100%-off Stripe Checkout orders into HubSpot: a webhook-triggered workflow action plus a backfill. Zero dependencies.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  }
+}
